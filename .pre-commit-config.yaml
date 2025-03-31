@@ -18,8 +18,7 @@ repos:
     hooks:
     -   id: black-jupyter
     -   id: black
-        language_version: python3.10
-
+        language_version: python3.12
 -   repo: https://github.com/nbQA-dev/nbQA
     rev: 1.9.1
     hooks:
