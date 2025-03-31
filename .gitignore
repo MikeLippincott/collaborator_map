@@ -172,3 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+data/110m_cultural.zip
+data/collaborator_locations*
