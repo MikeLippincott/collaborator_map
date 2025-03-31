@@ -21,7 +21,7 @@ world = geopandas.read_file("../data/110m_cultural.zip")
 # read in the data from a shapefile
 gdf = geopandas.read_file("../data/collaborator_locations.shp")
 gdf.rename(
-    columns={"Organizati": "Organization", "First coll": "First collabated"},
+    columns={"Organizati": "Organization", "First coll": "First collaborated"},
     inplace=True,
 )
 gdf.head()
